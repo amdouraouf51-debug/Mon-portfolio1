@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mon portfolio</title>
+<style>
+body{
+font-family: Time-new roman,sans-serif;
+background-color: #EEF1F6;
+
+}
+.navbar{
+color: white;
+display: flex;
+justify-content: space-between;
+background-color: royalblue;
+border-radius: 20px;
+position: fixed;
+/*Cette propriété fixe la navbar à un endroit précis de la fenêtre du navigateur*/
+    top: 0;
+    /*Pour Placer la navbar tout en haut de la fenêtre.*/
+
+    width: 100%;
+    /*Pour que la navbar occupe toute la largeur de l'écran*/
+
+   
+}
+.image{
+align-items: center;
+display: flex;
+}
+.image img{
+width: 80px;
+border-radius: 100px;
+}
+.image h1{
+font-family: italic;
+}
+h4{
+color: blue;
+font-size: 25px;
+}
+
+.menu a{
+color: white;
+text-decoration: none;
+padding: 20px;
+font-size: 20px;
+}
+
+.menu a:hover{
+color: red;
+}
+h3{
+font-family: Time-new-roman,sans-serif;
+color: black;
+}
+
+
+
+h2{
+color: blue;
+text-decoration: underline;
+text-align: center;
+}
+.h{
+color: #2D6BFF;
+}
+.text_accueil{
+text-align: center;
+padding: 150px;
+color: white;
+
+}
+#apropos{
+display: flex;
+background-color: #FFFFFF;
+border-radius: 10px;
+padding: 10px;
+}
+
+.text_apropos{
+color: white;
+padding: 90px;
+text-align: center;
+}
+.text{
+color: black;
+}
+
+.text_competences{
+padding: 150px;
+color: white;
+
+
+}
+.text_competences img{
+width: 100px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+
+
+}
+.comp{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+label{
+color: limegreen;
+}
+
+
+
+.text_contacts{
+color: white;
+
+}
+.card{
+display: flex;
+background-color: royalblue;
+border: 1px solid #1e293b;
+border-radius: 12px;
+padding: 15px;
+justify-content: space-between;
+}
+.card1 i{
+color: #1d52f4;
+font-size: 30px;
+}
+
+
+.formulaire{
+border: 3px solid blue;
+margin: 50px auto;
+border-radius: 20px;
+width: 300px;
+background-color: black;
+padding: 20px;
+text-align: center;
+}
+input{
+width: 100%;
+padding: 5px;
+border: 3px solid black;
+margin-top: 5px;
+border-radius: 10px;
+}
+button{
+width: 100%;
+padding: 10px;
+background-color: darkgreen;
+color: black;
+margin-top: 10px;
+cursor: pointer;
+}
+button:hover{
+background-color: green;
+color: lightyellow;
+}
+
+#projets{
+display: flex;
+justify-content: space-between;
+padding: 30px;
+}
+.projets{
+background-color: #FFFFFF;
+border-radius: 20px;
+padding: 30px;
+width: 250px;
+cursor: pointer;
+
+}
+.projets:hover{
+background-color: #3E9C77;
+translate: 30px;
+transition: 1s;
+}
+.projets button{
+border-radius: 30px;
+}
+footer{
+background-color: royalblue;
+color: white;
+text-align: center;
+border-radius: 10px;
+
+}
+
+
+</style>
+</head>
+<body>
+<navbar class="navbar">
+<div class="image">
+
+<h1>ABDOU LATUF</h1>
+</div>
+
+<div class="menu">
+<ul>
+<a href="#accueil">Accueil</a>
+<a href="#apropos">A propos</a>
+<a href="#compétences">Compétences</a>
+<a href="#projets">Projets</a>
+<a href="#contacts">Contacts</a>
+
+</ul>
+
+
+</div>
+</navbar>
+<section id="accueil">
+<div class="text_accueil">
+
+<p> <label style="color: black; font-size: 50px;">Bonjour! Je suis,</label>
+<h1 style="font-size: 80px;"><label style="color: black;">ABDOU LATUF</label> <label class="h">ISSOUF</label></h1> <h4>Developpeur web</h4></p><br>
+<p><h3>Passionné par le développement web, les bases de données SQL et les réseaux informatiques. J'aime créer des applications simples, modernes et efficaces</h3></p>
+
+</div>
+</section>
+<h2>A propos de moi</h2>
+<section id="apropos">
+<div class="text_apropos">
+
+<p><h4 class="text">Actuellement je suis un etudiant en 1ère année à EC2LT(Ecole Centrale de Logiciel Libres et Télécommunications).
+Je me forme sur les bases du web: <label>Html</label>,<label>CSS</label> et bientot <label>Javascript</label>.
+Curieux, motivé et désireux d'apprendre, je recherche des projets, des stages ou des opportunités qui me permettront de mettre en pratique mes compétences, d'enrichir mon expérience et de contribuer à des projets concrets.</p></h4>
+</div>
+</section>
+
+<section id="compétences">
+<div class="text_competences">
+<h2>Mes Compétences</h2>
+<div class="comp">
+<img src="HTML.jpg">
+<img src="CSS.jpg">
+<img src="Cyber.jpg">
+<img src="reseau.jpg">
+</div>
+
+
+</div>
+
+</section>
+
+<h2>Mes projets</h2>
+<section id="projets">
+
+<div class="projets">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBe_EARbDywTM-k81A1J8Gq6o5pjcKnBGWd_a35ew0pw&s=10" style="width: 250px; height: 220px;">
+<h4>Configuration du DHCP</h4>
+<a href="dhcp.pdf" target="_blank">
+<button>Voir Projets</button>
+</a>
+</div>
+<div class="projets">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXRIRjZRYCNfDkQblB41kScJjpUIAf1mmPdXW95__nIg&s=10" style="width: 220px;">
+<h4>Telephonie d'entreprise</h4>
+<a href="Telephonie.pdf" target="_blank">
+<button><i class="fa fa-arrow-right" aria-hidden="true" style="color: cyan; font-size: 15px;"></i> Voir Projets</button>
+</a>
+
+</div>
+<div class="projets">
+<img src="porfolio.png" style="width: 240px; height: 200px;">
+<h4>Création d'un portfolio</h4>
+<a href="porfolio2.html">
+<button>Voir Projets</button>
+</a>
+</div>
+
+</section>
+
+<section id="contacts">
+<div class="text_contacts">
+<h2>Conctactez-moi</h2>
+<div class="formulaire">
+<form>
+<h4>Formulaire</h4>
+<label>Prenom</label><br>
+<input type="text" placeholder="prenom"><br>
+<label>Nom</label><br>
+<input type="text" placeholder="nom"><br>
+<label>Email</label><br>
+<input type="text" placeholder="votre mail"> <br>
+<label>Message</label><br>
+<textarea>
+
+</textarea> <br> <br>
+<button type="submit">Envoyer</button>
+</form>
+
+</div>
+
+<div class="card">
+
+  <div class="card1">
+   
+    <h3>Email</h3>
+    <p>amdouraouf51@gmail.com</p>
+  </div>
+
+  <div class="card1">
+    
+    <h3>Téléphone</h3>
+    <p>+221 78 791 58 03</p>
+  </div>
+
+  <div class="card1">
+  
+  <h3>Localisation</h3>
+  <p>Niary tally</p>
+  </div>
+ </div>
+
+
+
+</section>
+
+<section>
+<footer>
+<p>© EC2LT - 2025-2026 - Tous droits réservés</p>
+<p style="font-family: Time-new-roman,sans-serif;">Developpeur: ABDOU LATUF</p>
+</footer>
+</section>
+
+</body>
+</html>
